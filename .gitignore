@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Input data (confidential) - keep only the README
+input/*
+!input/README.md
+
+# Generated artifacts - keep only the README
+output/*
+!output/README.md
+
+# Office temp/lock files
+~$*
+*.tmp
+*.bak
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Local test-case folders and scratch prompt (not published)
+TC*/
+Prompt.txt
